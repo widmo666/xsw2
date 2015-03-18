@@ -1,0 +1,20 @@
+jdbc.driver.class.name = com.mysql.jdbc.Driver
+#jdbc.url = jdbc:mysql://127.0.0.1:3306/moodle
+
+jdbc.database.prefix = jdbc:mysql://
+jdbc.port = 3306
+
+jdbc.address = learning.tt.com.pl
+jdbc.database.name = moodle
+jdbc.username = moodle
+jdbc.password = Passw0rdIOJKNM
+
+#jdbc.address = 127.0.0.1
+#jdbc.database.name = testowa
+#jdbc.username = root
+#jdbc.password = root
+
+
+hibernate.dialect = org.hibernate.dialect.MySQLDialect
+hibernate.show_sql = true
+hibernate.generate_statistics = false
